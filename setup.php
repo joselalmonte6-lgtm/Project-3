@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <?php if ($created): ?>
         <p class="success">Admin account created successfully.</p>
-        <button onclick="window.location.href='auth/login.php'">Go to Login</button>
+        <button onclick="window.location.href='login.php'">Go to Login</button>
     <?php else: ?>
         <?php if ($message): ?>
             <p class="error"><?= htmlspecialchars($message) ?></p>
@@ -89,3 +89,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 </body>
 </html>
+
