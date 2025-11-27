@@ -33,4 +33,4 @@ reviews
 
 Launch the site
 Open:
-http://localhost/Project3/auth/setup.php
+http://localhost/Project-3/setup.php
